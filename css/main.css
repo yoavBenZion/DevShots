@@ -1,0 +1,103 @@
+/******************************
+GENERAL
+********************************/
+
+/*Border all*/
+/** { border: 1px solid black; }*/
+
+h1 {
+  background-color: gray;
+}
+
+li {
+  list-style: none;
+}
+
+img {
+  max-width: 50%;
+
+}
+
+/*******************************
+HEADER 
+*******************************/
+
+
+header {
+  border-bottom: 10px solid #191c27;
+  background: #A3A396 url(../img/protagonist-1816209_640.jpg) no-repeat center bottom;
+  background-size: 20%;
+}
+
+header h1 {
+  background-color: #191c27;
+  margin-top: 0;
+  display: inline-block;
+  color: #fff;
+}
+
+header h2 {
+  background-color: #191c27;
+  margin-top: 0;
+  display: inline;
+  color: #fff;
+  margin-left: 10px;
+}
+
+#top {
+  background-color: #191c27;
+}
+
+.side-nav {
+  display: inline-block;
+  border: 5px solid red;
+  margin: 0  0 0 200px;
+}
+
+#head-section  {
+display: inline-block;
+  border: 5px solid red;
+  margin: 
+}
+
+/*********************
+LECTURE gallery
+**********************/
+#gally li{
+  background-color: chartreuse;
+  float: left;
+  width: 27.3333%;
+  margin: 4% 2% 0.5%;
+  padding: 2px 1px;
+}
+
+#gally li img {
+  box-sizing: border-box;
+  max-height: 70px;
+}
+
+
+/*************************
+Location 
+*************************/
+
+#location {
+/*  overflow: auto;*/
+}
+
+/************************
+INFO SECTION
+*************************/
+#info ul li  {
+  float: left;
+  background-color: lightblue;
+  width: 15%;
+  margin: 2% 2%;
+  padding: 0.2% 0.1%;
+  
+}
+
+#info img {
+  max-width: 100%;
+  background-color: white;
+}

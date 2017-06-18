@@ -4,7 +4,17 @@ GENERAL
 
 /*Border all*/
 /** { border: 1px solid black; }*/
+* {
+  font-family: "Noto Sans";
+}
 
+.logo {
+  color: white;
+  font-family:"Roboto Slab";
+  display: inline;
+  margin: auto 200px;
+  
+}
 
 li {
   list-style: none;
@@ -67,7 +77,7 @@ display: inline-block;
   margin: 
 }
 
-/*******************Main-Sections**************************/
+/************Main-Sections****************/
 
 /*********************
 LECTURES

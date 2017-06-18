@@ -3,31 +3,41 @@ GENERAL
 ********************************/
 
 /*Border all*/
-/** { border: 1px solid black; }*/
+* { border: 1px solid black; }
+
 * {
   font-family: "Noto Sans";
 }
 
-.logo {
-  color: white;
-  font-family:"Roboto Slab";
-  display: inline;
-  margin: auto 200px;
-  
+body {
+   max-width: 950px;
+  margin: 0 auto;
+  padding: 0 5%;
 }
+
 
 li {
   list-style: none;
 }
 
 img {
-  max-width: 50%;
+  max-width: 100%;
+}
 
+a {
+  text-decoration: none;
 }
 /*******************************
 BORDER-HEADER 
 *******************************/
 
+#top {
+  background-color: #282924;
+  float: left;
+  margin: 0 0 30px 0;
+  padding: 5px 0 0 0;
+  width: 100%;
+}
 
 header h1 {
   margin-top: 0;
@@ -42,8 +52,12 @@ header h2 {
   margin-left: 10px;
 }
 
-#top {
-  background-color: #282924;
+.logo {
+  color: white;
+  display: inline;
+  font-family:"Roboto Slab";
+  display: inline;
+  margin: 0 40px
 }
 
 
@@ -77,7 +91,6 @@ display: inline-block;
   margin: 
 }
 
-/************Main-Sections****************/
 
 /*********************
 LECTURES
@@ -90,6 +103,7 @@ LECTURES
 #lectures li{
   background-color: white;
 /*  float: left;*/
+  width: 100%;
   width: 27.3333%;
   margin: 4% 2% 0.5%;
   padding: 2px 1px;

@@ -13,17 +13,17 @@
       <p class="logo">&copy;Yoav Benzion</p>
       </div>   
        <section id="head-section">
-         <p>developeers event in good head</p>
-         <p>talikng about the newast technologies from the front of the ..<br> and chalanges that are here, with co-heroes from the industry</p>
+         <p class="white1 size2">Developers event in good vibes</p>
+         <p class="size3 .grey1" >Talikng about the newast technologies from the front of the tech industry.<br> and chalanges that are here, with co-heroes from the industry.</p>
        </section>
-         <nav class="side-nav">
+         <nav class="nav">
           <ul>
-           <li id="top-nav">Navigation bar</li>
-            <li id="yellow-nav">wtf ?</li>
-            <li>lectures</li>
-            <li>parking</li>
-            <li>usfull info</li>
-            <li>about us</li>
+           <li class="backBlack1"><a id="navigation" href="#">Navigation</a></li>
+            <li class="backYellow second"><a id="wtf" href="#">wtf ?</a></li>
+            <li><a href="#">lectures</a></li>
+            <li><a href="#">parking</a></li>
+            <li><a href="#">usfull info</a></li>
+            <li><a href="#">about us</a></li>
           </ul>
         </nav>
       </header>
@@ -98,39 +98,23 @@
           </ul>
         </section>
         <section id="registr">
-          <h1>Registration</h1>
-          <h3>enrence is free but places are limited</h3>
-          <p>We will be happy if you register, but only if you show up</p>
-          <p id="conidiality">All your details will stay confidial, we will not pass them to anyone</p>
-          <ul id="input">
-            <li>
-              <p>full name</p>
-              <input type="text">
-            </li>
-            <li>
-              <p>roll</p>
-              <input type="text">
-            </li>
-            <li>
-              <p>orginization</p>
-              <input type="text">
-            </li>
-            <li>
-              <p>phone number</p>
-              <input type="number">
-            </li>
-            <li>
-              <p>Email</p>
-              <input type="email">
-            </li>
-             <li>
-              <p>amount of pepole</p>
-              <input type="number">
-            </li>
-            <li>
-              <input type="submit">
-            </li>
-          </ul>
+          <form action="index.html" method="post">
+            <h1>Register</h1>
+            <h3>entrence is free but places are limited</h3>
+            <p>We will be happy if you register, but only if you show up</p>
+            <p>All your details will stay confidial, we will not pass them to anyone</p>
+            
+            <label for="name">Full Name :</label>
+            <input type="text" id="name" name="full_name"><br>
+            <label for="roll">Roll :</label>
+            <input type="text" id="roll" name="buisness"><br>
+            <label for="job">Orgainzation:</label>
+            <input type="text" id="job" name="job_organization"><br>
+            <label for="phone">Tel:</label>
+            <input type=tel id="phone" name="phone_number"><br>
+            
+            <button type="submit">Tht's all ! Send me!</button>
+          </form>
         </section>
         <section id="info">
          <h1>Info</h1>

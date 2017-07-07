@@ -1,16 +1,25 @@
 /******************************
+@Import-CSS
+********************************/
+
+@import url(size.css);
+@import url(fonts.css);
+@import url(color.css);
+@import url(backcolor.css);
+
+/******************************
 GENERAL
 ********************************/
 
 /*Border all*/
-* { border: 1px solid black; }
+/** { border: 1px solid black; }*/
 
 * {
   font-family: "Noto Sans";
 }
 
 body {
-   max-width: 950px;
+  max-width: 950px;
   margin: 0 auto;
   padding: 0 5%;
 }
@@ -27,6 +36,7 @@ img {
 a {
   text-decoration: none;
 }
+
 /*******************************
 BORDER-HEADER 
 *******************************/
@@ -43,35 +53,25 @@ header h1 {
   margin-top: 0;
   display: inline-block;
   color: #fff;
+  font-size: 1.3em;
+  font-weight: 100;
 }
 
 header h2 {
   margin-top: 0;
   display: inline;
-  color: #fff;
+  color: #9C9786;
   margin-left: 10px;
+  font-size: 1.1em;
+  font-weight: 100;
 }
 
-.logo {
+p.logo {
   color: white;
-  display: inline;
   font-family:"Roboto Slab";
-  display: inline;
+  display: inline-block;
   margin: 0 40px
 }
-
-
-
-/*******************************
-HEAD-NAV
-*******************************/
-
-.side-nav {
-  display: inline-block;
-  border: 5px solid red;
-  margin: 0  0 0 200px;
-}
-
 
 /*******************************
 HEADER 
@@ -86,10 +86,48 @@ header {
 
 
 #head-section  {
-display: inline-block;
-  border: 5px solid red;
-  margin: 
+  display: inline-block;
+  width: 250px;
+  height: 200px;
+  margin: 0 5px;
+  padding-left: 20px;
 }
+
+
+/*******************************
+HEAD-NAV
+*******************************/
+
+.nav ul {
+  display: inline-block;
+  background-color: #efeffb;
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+
+.nav ul {
+  padding-left: 0;
+}
+
+.nav li {
+  border-bottom: 0.5px dotted lightblue;
+  padding-bottom: 5px;
+}
+
+.nav a {
+  color: #6a6f62;
+}
+
+#navigation {
+  color: #fff;
+}
+
+#wtf {
+  color: #282924;
+}
+
 
 
 /*********************
@@ -102,7 +140,7 @@ LECTURES
 
 #lectures li{
   background-color: white;
-/*  float: left;*/
+  float: left;
   width: 100%;
   width: 27.3333%;
   margin: 4% 2% 0.5%;
@@ -113,6 +151,7 @@ LECTURES
 
 #lectures li img {
   max-height: 70px;
+  align-content: center;
 }
 
 
@@ -123,6 +162,7 @@ Location
 
 #location {
   background-color: #e0e0ed;
+  clear: both;
 }
 
 
@@ -145,7 +185,7 @@ INFO
 }
 
 #info ul li  {
-/*  float: left;*/
+  float: left;
   background-color: lightblue;
   width: 15%;
   margin: 2% 2%;
@@ -165,6 +205,7 @@ BORDER-FOOTER
 
 #border-footer {
   background-color: #202e29;
+  clear: both;
 }
 
 /************************

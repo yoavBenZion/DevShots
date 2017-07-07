@@ -20,9 +20,9 @@ GENERAL
 }
 
 body {
-  max-width: 950px;
-  margin: 0 auto;
-  padding: 0 5%;
+/*  max-width: 950px;*/
+  margin: 0 5px;
+/*  padding: 0 5%;*/
 }
 
 
@@ -71,7 +71,7 @@ p.logo {
   color: white;
   font-family:"Roboto Slab";
   display: inline-block;
-  margin: 5px 0 5px 150px;
+  margin: 5px 0 5px 80px;
 /*  text-align: right;*/
 }
 
@@ -88,15 +88,14 @@ header {
 #head-section div {
   vertical-align: top;
   display: inline-block;
-  width: 300px;
-  margin: 10px 20px;
+  width: 260px;
+  margin: 10px 5px 10px 20px;
   
 }
 
 #head-section p {
   display: inline-block;
   padding-left: 20px;
-  text-align: center;
   width: 33.33333%;
   margin: 0 auto;
 }
@@ -114,8 +113,8 @@ HEAD-NAV
   text-align: center;
   text-transform: uppercase;
   margin-bottom: 0;
-  font-size: 2.5em;
-  letter-spacing: 2px;
+  font-size: 3.5em;
+  letter-spacing: 3.5px;
   padding-left: 0;
 }
 
